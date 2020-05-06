@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        
+        
+        <ImageView
+            android:id="@+id/casa_poporuluiIMG"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/casa_poporului"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/casa_poporului_titluTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casa_poporului"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="5"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+        <TextView
+            android:id="@+id/descriereCPTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casa_poporuluiTV"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

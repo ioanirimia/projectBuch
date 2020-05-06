@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_menu_dashboard_icon_24dp"/>
+        <item android:id="@+id/nav_search"
+            android:title="@string/search"
+            android:icon="@drawable/ic_search_black_24dp"/>
+        <item android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+            android:icon="@drawable/ic_category_24dp"/>
+    </group>
+
+    <item android:title="@string/profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/ic_login_24dp"/>
+                <item android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/ic_account_profile_black_24dp"/>
+                <item android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/ic_logout_24dp"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/categories">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_points_of_interests"
+                    android:title="@string/pointsof_interests"
+                    android:icon="@drawable/ic_points_of_interests_24dp"/>
+                <item android:id="@+id/nav_restaurants"
+                    android:title="@string/restaurants"
+                    android:icon="@drawable/ic_restaurant_black_24dp"/>
+                <item android:id="@+id/nav_hotels"
+                    android:title="@string/hotels"
+                    android:icon="@drawable/ic_hotel_black_24dp"/>
+                <item android:id="@+id/nav_airports"
+                    android:title="@string/airports"
+                    android:icon="@drawable/ic_airport_24dp"/>
+                <item android:id="@+id/nav_public_transport"
+                    android:title="@string/publicTransport"
+                    android:icon="@drawable/ic_public_transport_24dp"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

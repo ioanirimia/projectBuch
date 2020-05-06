@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "377220736346",
+    "firebase_url": "https://bucharestguide-f5a61.firebaseio.com",
+    "project_id": "bucharestguide-f5a61",
+    "storage_bucket": "bucharestguide-f5a61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377220736346:android:d9ea814a2efc2247c37f63",
+        "android_client_info": {
+          "package_name": "aplicatie.turism.bucharestguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377220736346-k9q2odeb3j4tdplhvmkntqasqji2v055.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aplicatie.turism.bucharestguide",
+            "certificate_hash": "c4ff5b9dada3928a8d78b349f11e7e952adfefc5"
+          }
+        },
+        {
+          "client_id": "377220736346-uraecut19raau8g8365naieteb721dhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK-LuhhC-x4g0FPGGK90FbVUqlwM5xxFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377220736346-uraecut19raau8g8365naieteb721dhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
